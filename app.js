@@ -10,7 +10,7 @@ const __diname = dirname(__filename)
 
 const app = express();
 const port = process.env.PORT || 3001;
-const dbPath = join(__diname, '.', 'db', 'users.json');
+const dbPath = join(__diname, 'db', 'users.json');
 
 app.use(cors());
 app.use(express.json());
